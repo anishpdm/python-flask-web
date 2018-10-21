@@ -1,0 +1,15 @@
+{% extends 'masterfile.html' %}
+
+{% block mybody %}
+
+<h1>  Contact Us</h1>
+<form method="POST" action="/send">
+    <input type="text" placeholder="Enter your Name" name="name"/>
+
+<input type="text" placeholder="Enter your Email Id" name="email"/>
+<button type="submit" class="btn btn-info">Send</button>
+</form>
+
+
+
+{% endblock %}
